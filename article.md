@@ -22,7 +22,8 @@ Reaction mixtures were prepared by combining a buffer, substrate (hydrogen perox
 
 The control group showed constant absorbance values, indicating no enzymatic reaction. In the increased enzyme concentration group, absorbance increased slightly over time, suggesting enzyme activity. This effect was observed across multiple molar concentrations, with the reaction rate increasing at higher enzyme concentrations, although less pronounced than anticipated. In the pH variation group, absorbance changes were inconsistent, showing no clear trend. This may have been due to experimental errors or the enzyme’s sensitivity to minor pH deviations.
 
-A line graph was generated to depict absorbance changes over time for all experimental groups. Data trends illustrated the influence of enzyme concentration on reaction rates and the variability in results due to pH changes.
+A line graph was generated to depict absorbance changes over time for all experimental groups. Data trends illustrated the influence of enzyme concentration on reaction rates and the variability in results due to pH changes. The results showed that the control group exhibited constant absorbance values, indicating no reaction. When enzyme concentration was increased, there was a slight increase in absorbance over time, suggesting enzyme activity. In contrast, data from the HCl (pH variation) condition displayed fluctuations with no clear trend, likely due to suboptimal pH levels or experimental errors. Observations indicated that while enzyme concentration positively influenced the reaction, the effect was less pronounced than predicted. Additionally, the fluctuations in pH underscored the enzyme's sensitivity to environmental conditions.
+
 
 
 ```{csv-table}
