@@ -1,0 +1,7 @@
+mamba activate jterm2025 
+cd downloads 
+cd article 
+myst start
+
+
+How do I permantenly save downloads and then article folder

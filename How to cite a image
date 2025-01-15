@@ -1,0 +1,29 @@
+```{figure} images/images.jpeg
+:label: lion
+:alt: A photo of a lion with the numerical symbol for plus. Following that symbol is a coffee cup.   
+Lion plus coffee cup photo 
+```
+Yeah that is amazing, see @lion for details. 
+
+
+With subfigures
+
+```{figure} images/images.jpeg
+:label: lion
+:alt: A photo of a lion with the numerical symbol for plus. Following that symbol is a coffee cup.   
+Lion plus coffee cup photo  
+
+![Here is some fruit](images/think-of-2-random-cartoon-characters-that-first-come-to-v0-yt2alieo0nuc1.webp)
+
+![My vacation pics!](images/think-of-2-random-cartoon-characters-that-first-come-to-v0-yt2alieo0nuc1.webp)
+
+Some pictures of fruit and the ocean!
+
+```
+
+See  for the fruit @random, and [](#my-figure) to reference both subfigures.
+
+
+
+![Fish Table Example-this is really cool](#fishtable)
+- when you want to cite something from jupyter lab
