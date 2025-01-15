@@ -1,7 +1,7 @@
 version: 1
 project: 
-  title: "Effects of Melatonin and Temperature on the Heart Rate of Daphnia"
-  description: "This manuscript explores the effects of melatonin and reduced temperature on the heart rate of Daphnia, a model organism widely used in physiological studies. The study investigates melatonin's calming properties and Daphnia's resilience to short-term temperature changes, providing insights into their physiological responses under varying environmental conditions."
+  title: "The Influence of Enzyme Concentration and pH on Turnip Peroxidase Activity"
+  description: "This study investigates the effects of enzyme concentration and pH on the activity of turnip peroxidase."
   keywords: 
     - Turnip peroxidase
     - Enzyme kinetics
