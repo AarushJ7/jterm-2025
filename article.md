@@ -1,7 +1,9 @@
 ---
 title: The Influence of Enzyme Concentration and pH on Turnip Peroxidase Activity
-abstract: 
+abstract: |
   This study investigates the effects of enzyme concentration and pH on the activity of turnip peroxidase. Enzymes are biological catalysts that accelerate chemical reactions (@10.1006/bulm.1999.0163), and their efficiency is influenced by environmental factors (@10.1007/978-1-4684-3806-2_5). The experiment analyzed reaction rates by varying enzyme concentration and adjusting pH levels with HCl, using hydrogen peroxide as the substrate. Results showed that increasing enzyme concentration led to a slight increase in reaction rate, though less pronounced than expected, while pH adjustments produced inconsistent data, likely due to experimental errors. These findings emphasize the importance of optimizing enzyme conditions for practical applications in agriculture and industry, and they provide a foundation for further research into enzyme activity under varying conditions.
+availability: |
+  The data that support the findings fo this study are openlly availible in [jterm-2025] at https://github.com/AarushJ7/jterm-2025. 
 ---
 
 ## Introduction 
