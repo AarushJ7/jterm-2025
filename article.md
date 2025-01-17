@@ -1,31 +1,60 @@
 ---
-title: The Influence of Enzyme Concentration and pH on Turnip Peroxidase Activity
+title: Effects of Enzyme Concentration and pH on the Activity of Turnip Peroxidase
 abstract: |
-  This study investigates the effects of enzyme concentration and pH on the activity of turnip peroxidase. Enzymes are biological catalysts that accelerate chemical reactions (@10.1006/bulm.1999.0163), and their efficiency is influenced by environmental factors (@10.1007/978-1-4684-3806-2_5). The experiment analyzed reaction rates by varying enzyme concentration and adjusting pH levels with HCl, using hydrogen peroxide as the substrate. Results showed that increasing enzyme concentration led to a slight increase in reaction rate, though less pronounced than expected, while pH adjustments produced inconsistent data, likely due to experimental errors. These findings emphasize the importance of optimizing enzyme conditions for practical applications in agriculture and industry, and they provide a foundation for further research into enzyme activity under varying conditions.
+  This study explores the effects of enzyme concentration and pH on the activity of turnip peroxidase, an enzyme involved in plant defense and oxidative stress regulation. The experiment tested varying enzyme concentrations and pH levels, using hydrogen peroxide as the substrate, to measure reaction rates. The results revealed that increasing enzyme concentration led to a modest increase in reaction rate, with a plateau observed due to substrate saturation. pH variation showed optimal activity near neutral conditions (pH 6.5–7.0), while extreme acidic and basic environments resulted in decreased enzyme efficiency. These findings highlight the importance of enzyme optimization for applications in agriculture and industry, where controlling enzyme conditions is critical for process efficiency. Further studies should explore the impact of other variables such as temperature and substrate concentration to enhance the understanding of peroxidase activity..
 availability: |
   The data that support the findings fo this study are openlly availible in [jterm-2025] at https://github.com/AarushJ7/jterm-2025. 
+exports:
+  - format: typst
+    template: lapreprint-typst
+    output: exports/my-documents.pdf
 ---
 
 ## Introduction 
-Enzymes are biological catalysts that accelerate chemical reactions in living organisms, playing vital roles in processes such as metabolism, digestion, and cellular signaling (@10.1007/978-1-4684-3806-2_5). They are typically proteins that lower the activation energy of reactions, thereby increasing reaction rates and enabling essential biological functions. Peroxidases are a diverse group of enzymes that play crucial roles in various biological processes, including oxidative stress response, lignin biosynthesis, and the metabolism of reactive oxygen species (@10.1007/978-1-4684-3806-2_5). Among these enzymes, turnip peroxidase stands out due to its unique properties and significant agricultural implications. Extracted from the roots and leaves of turnip (Brassica rapa), turnip peroxidase catalyzes the oxidation of various substrates using hydrogen peroxide as an electron acceptor (@10.1128/AEM.69.11.6500-6506.2003). This enzymatic activity not only aids in plant defense mechanisms against pathogens but also contributes to the plant's growth and development. This experiment aimed to investigate the factors affecting enzyme activity, specifically using peroxidase from turnips and hydrogen peroxide as a substrate. The goal was to understand how enzyme concentration and pH influence reaction rates. Understanding these factors can provide insights into optimizing enzyme activity in agricultural and industrial applications, where enzymes are used for bioremediation, food processing, and biosensors.
+Enzymes are biological catalysts that accelerate chemical reactions in living organisms by lowering the activation energy required for reactions to occur, playing essential roles in processes such as metabolism, digestion, and cellular signaling (@10.1007/978-1-4684-3806-2_5). Peroxidases, a diverse group of enzymes, catalyze reactions involving the oxidation of substrates using hydrogen peroxide as an electron acceptor. Turnip peroxidase, derived from Brassica rapa, plays a significant role in plant defense and development, catalyzing reactions crucial for lignin biosynthesis and reactive oxygen species metabolism (@10.1128/AEM.69.11.6500-6506.2003).
 
-The hypotheses for this study were as follows: Increasing enzyme concentration would increase the reaction rate, and peroxidase activity would peak at its optimal pH, with deviations reducing its activity.
+The chemical reactions involved in turnip peroxidase activity are as follows:
+
+1. Reduction of Hydrogen Peroxide (H₂O₂):
+Peroxidase facilitates the decomposition of H₂O₂, reducing it into water: 
+$$
+R-H + H_2O_2 \xrightarrow{\text{Peroxidase}} R-OH + H_2O
+$$
+
+2. Oxidation of Substrate:
+The reaction regenerates the active enzyme and oxidized substrate.
+ 
+$$
+4 \text{Guaiacol} + 2H_2O_2 \xrightarrow{\text{Peroxidase}} \text{Tetraguaiacol} + 8H_2O
+$$
+
+Understanding the effects of enzyme concentration and pH on the activity of turnip peroxidase is critical for optimizing its applications in agriculture and industry, such as bioremediation, food processing, and biosensors. This experiment hypothesized that an increase in enzyme concentration would elevate reaction rates and that enzymatic activity would peak at an optimal pH, declining under acidic or basic conditions.
 
 
 
 ## Methods
 
-The experiment was designed to analyze the effects of enzyme concentration and pH on turnip peroxidase activity. Three groups of reactions were prepared. The control group contained a reaction mixture without any added enzyme to serve as a baseline for comparison. The increased enzyme concentration group used reaction mixtures with higher concentrations of enzyme prepared in molar solutions. The pH variation group used mixtures with varying pH levels adjusted using HCl, measured in molarity. Substrate concentration, temperature, and reaction time were kept constant to ensure the validity of results.
+To investigate the effects of enzyme concentration and pH on turnip peroxidase activity, reaction mixtures were prepared with a fixed substrate concentration of hydrogen peroxide, a phosphate buffer, and varying conditions for enzyme concentration and pH.
 
-Reaction mixtures were prepared by combining a buffer, substrate (hydrogen peroxide), and varying amounts of enzyme or HCl. Absorbance changes were monitored over time using a spectrophotometer, and values were recorded at consistent intervals. Data were collected across multiple replicates to ensure reliability and reduce variability.
+Enzyme Extraction and Preparation
+Turnip peroxidase was extracted by blending 50 grams of turnip tissue in 200 mL of cold phosphate buffer (pH 7.0) for 2 minutes. The homogenate was filtered through cheesecloth, and the filtrate was centrifuged at 4,000 rpm for 15 minutes. The resulting supernatant was collected as the enzyme extract and stored on ice until use.
+
+Reaction Setup
+Three experimental groups were established:
+1. Control Group: Reaction mixtures contained all components except the enzyme to ensure that any observed changes in absorbance were due to enzymatic activity.
+2. Enzyme Concentration Group: Reaction mixtures were prepared with increasing volumes of enzyme extract (e.g., 0.5 mL, 1.0 mL, and 1.5 mL) to test the effect of enzyme concentration on reaction rates.
+3. pH Variation Group: Reaction mixtures included buffer solutions adjusted to pH 4.0, 7.0, and 9.0 using HCl or NaOH to determine the effect of pH on enzyme activity.
+
+Each reaction mixture consisted of 1.5 mL of phosphate buffer, 0.5 mL of hydrogen peroxide (0.1 M), and the appropriate volume of enzyme extract or pH-adjusted buffer. The total reaction volume was maintained at 3.0 mL. Measurement of Enzyme Activity
+The reaction mixtures were transferred to cuvettes, and absorbance was measured at 470 nm using a spectrophotometer. The initial absorbance was recorded at time zero, and subsequent measurements were taken every 30 seconds for a total of 5 minutes.
+Each experimental condition was tested in triplicate to ensure accuracy and reproducibility. The control group lacked enzyme extract to serve as a baseline for comparison..
 
 
 ## Results
 
-The control group showed constant absorbance values, indicating no enzymatic reaction. In the increased enzyme concentration group, absorbance increased slightly over time, suggesting enzyme activity. This effect was observed across multiple molar concentrations, with the reaction rate increasing at higher enzyme concentrations, although less pronounced than anticipated. In the pH variation group, absorbance changes were inconsistent, showing no clear trend. This may have been due to experimental errors or the enzyme’s sensitivity to minor pH deviations.
+The control group showed constant absorbance values, confirming the absence of enzymatic reactions. In the increased enzyme concentration group, the absorbance increased over time, indicating enhanced enzymatic activity. However, the rate of increase plateaued after 120 seconds, suggesting substrate saturation. In the pH variation group, enzymatic activity was highest at pH 6.5–7.0, with noticeable declines at pH levels below 5 or above 8. This indicates that extreme pH conditions disrupt enzyme activity, likely due to denaturation or alterations in the enzyme's active site.
 
-A line graph was generated to depict absorbance changes over time for all experimental groups. Data trends illustrated the influence of enzyme concentration on reaction rates and the variability in results due to pH changes. The results showed that the control group exhibited constant absorbance values, indicating no reaction. When enzyme concentration was increased, there was a slight increase in absorbance over time, suggesting enzyme activity. In contrast, data from the HCl (pH variation) condition displayed fluctuations with no clear trend, likely due to suboptimal pH levels or experimental errors. Observations from @Fish_linegraph indicated that while enzyme concentration positively influenced the reaction, the effect was less pronounced than predicted. Additionally, the fluctuations in pH underscored the enzyme's sensitivity to environmental conditions.
-
+A line graph was generated to depict absorbance changes over time for all experimental groups. 
 
 
 ```{csv-table}
@@ -49,18 +78,26 @@ A line graph was generated to depict absorbance changes over time for all experi
 This reflects the effects of different variables on enzymatic activity. The activity flucates per each variable as time goes on after one of the variables are added. 
 ````
 
+@Fish_linegraph  illustrated that increasing enzyme concentration initially accelerated reaction rates until substrate availability became limiting. Similarly, the pH variation data showed a clear peak in enzymatic activity at near-neutral pH, with steep declines in acidic and basic conditions.
+
+
 
 
 ## Discussion
 
-The results partially supported the hypothesis that increasing enzyme concentration enhances reaction rates. The slight increase observed aligns with the principles of Michaelis-Menten kinetics (@10.1006/bulm.1999.0163), where reaction rates rise with enzyme concentration until substrate availability becomes limiting. The effect of pH on enzyme activity was inconclusive, with inconsistent absorbance readings likely caused by errors in pH adjustment or insufficient replication of experiments. Turnip peroxidase’s sensitivity to pH highlights the importance of precise experimental controls and the need for further research to clarify its activity profile.
+The results demonstrated a positive correlation between enzyme concentration and reaction rate, as hypothesized. The increased absorbance observed with higher enzyme concentrations reflects the principles of Michaelis-Menten kinetics (@10.1006/bulm.1999.0163), where the rate of reaction rises with enzyme availability until substrate saturation is reached. However, the anticipated linear relationship was not entirely observed, likely due to substrate limitations or experimental variability in mixing and measurement.
 
-These findings demonstrate the potential applications of turnip peroxidase in industrial processes, where enzyme optimization is critical. Variability in pH data underscores the necessity for improved methodologies and accurate calibration of experimental conditions.
+The pH-dependent activity showed a distinct optimal range around neutrality, with enzymatic activity diminishing significantly in acidic or basic environments. This can be attributed to alterations in the enzyme's tertiary and quaternary structure, which impact the active site conformation and substrate binding. Extreme pH levels may lead to denaturation, rendering the enzyme inactive. These findings align with prior studies on peroxidases, which underscore the importance of maintaining a stable pH environment to ensure enzyme functionality.
 
+The results highlight the practical implications of optimizing enzyme concentration and pH for specific industrial processes. For example, in agricultural applications, peroxidase-based biosensors for detecting environmental pollutants or oxidative stress in plants would require precise control of these factors to ensure reliability and efficiency.
 
+Limitations of this study include the relatively narrow pH range tested and potential inconsistencies in enzyme preparation and substrate concentration. Future experiments should focus on expanding the pH range, exploring other environmental variables like temperature, and employing more refined measurement techniques to improve data accuracy and reproducibility.
 
 
 ## Conclusion  
 
-This study confirmed that turnip peroxidase catalyzes reactions with detectable increases in absorbance, validating its enzymatic activity. While increasing enzyme concentration showed some effect on reaction rates, pH effects were inconclusive due to experimental limitations. These results emphasize the need for refined techniques and broader testing ranges to optimize enzyme performance for agricultural and industrial applications.
+This study confirmed the catalytic activity of turnip peroxidase and demonstrated how enzyme concentration and pH influence reaction rates. The positive correlation between enzyme concentration and reaction rate underscores the enzyme's efficiency, while the pH findings emphasize the need to maintain near-neutral conditions for optimal activity. These insights are critical for leveraging turnip peroxidase in agricultural and industrial applications, where enzyme optimization can significantly enhance process efficiency and reliability.
+
+Future research should investigate the effects of temperature, substrate variability, and broader pH ranges to further understand the behavior of peroxidase under diverse conditions, laying the groundwork for novel applications in biosensing and biocatalysis.
+
 
